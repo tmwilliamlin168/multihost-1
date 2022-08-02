@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsnd --respawn --transpile-only src/index.ts"
+    "dev": "tsnd --respawn --transpile-only src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
